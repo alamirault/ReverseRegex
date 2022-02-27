@@ -1,7 +1,7 @@
 ReverseRegex
 ============
 
-[![Build Status](https://travis-ci.org/icomefromthenet/ReverseRegex.png)](https://travis-ci.org/icomefromthenet/ReverseRegex)
+This package is a maintained fork of [icomefromthenet/reverse-regex](https://github.com/icomefromthenet/ReverseRegex).
 
 Use Regular Expressions to generate text strings can be used in the following situations:
 
@@ -50,9 +50,9 @@ vaygybwkfm
 ```
 #### Other examples
 
-1. [Australian phone numbers](https://github.com/icomefromthenet/ReverseRegex/blob/master/examples/ausphone.php)
-2. [Australian postcodes](https://github.com/icomefromthenet/ReverseRegex/blob/master/examples/auspostcode.php)
-3. [Mobile numbers](https://github.com/icomefromthenet/ReverseRegex/blob/master/examples/mobilenumbers.php)
+1. [Australian phone numbers](https://github.com/alamirault/ReverseRegex/blob/master/examples/ausphone.php)
+2. [Australian postcodes](https://github.com/alamirault/ReverseRegex/blob/master/examples/auspostcode.php)
+3. [Mobile numbers](https://github.com/alamirault/ReverseRegex/blob/master/examples/mobilenumbers.php)
 
 
 ##Installing
@@ -62,7 +62,7 @@ To install use composer
 ```json
 {
   "require" : {
-	"icomefromthenet/reverse-regex" : "dev-master"
+	"alamirault/reverse-regex" : "dev-master"
     }
 }
 ```

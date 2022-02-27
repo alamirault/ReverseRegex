@@ -1,8 +1,8 @@
 {
-    "name": "icomefromthenet/reverse-regex",
-    "description": "Convert Regular Expressions into text, for testing",
+    "name": "alamirault/reverse-regex",
+    "description": "Convert Regular Expressions into text, for testing (Php 8.x compatible)",
     "keywords": ["regex","testing","test data","generator"],
-    "homepage": "http://github.com/icomefromthenet/ReverseRegex",
+    "homepage": "http://github.com/alamirault/ReverseRegex",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -10,13 +10,17 @@
             "name": "Lewis Dyer",
             "email": "getintouch@icomefromthenet.com",
             "homepage": "http://www.icomefromthenet.com"
+        },
+        {
+            "name": "Antoine Lamirault",
+            "email": "lamiraultantoine@gmail.com"
         }
     ],
     "require-dev": {
        "phpunit/phpunit": "^8"
     },
     "require": {
-        "php"                  : "^7.2|^8.0",
+        "php"                  : "^8.0",
         "doctrine/lexer"       : "1.2.1",
         "doctrine/collections" : "1.6.5",
         "patchwork/utf8"       : ">=1.3"
